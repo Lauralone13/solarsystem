@@ -1,0 +1,20 @@
+1.Name;2.Objectkind;3.Diameter(Earth=1);4.Diameter(km);5.Mass(Earth=1);6.DistancefromSun(*AU(Earth=1));7.ConfirmedMoons;8.ProvisionalMoons;9.TotalMoons;10.TemperatureAtSurface(°C);11.GravityAtEquator(Earth=1);12.hasRings;13.AtmosphericComposition
+Sun;star;109;1391400;330000;0;0;0;0;15million;28.0;no;H+He
+Mercury;planet;0.382;4879;0.055;0.39;0;0;0;-180 to 430;0.38;no;none
+Venus;planet;0.949;12104;0.815;0.72;0;0;0;465;0.9;no;CO2
+Earth;planet;1;12756;1;1;1;0;1;-89 to 58;1;no;N2+O2
+Mars;planet;0.532;6792;0.107;1.52;2;0;2;-82 to 0;0.38;no;CO2
+Jupiter;planet;11.209;142984;318;5.20;53;26;79;-150;2.64;yes;H2+He
+Saturn;planet;9.44;120536;95;9.54;53;29;82;-170;0.93;yes;H2+He
+Uranus;planet;4.007;51118;15;19.18;27;0;27;-200;0.89;yes;H2+He
+Neptune;planet;3.883;49528;17;30.06;14;0;14;-210;1.12;yes;H2+He
+Pluto;dwarfplanet;0.180;2300;0.002;39.44;5;0;5;-220;0.06;no;CH4
+Eris;dwarfplanet;0.210;2700;0.0028;67.6681;1;0;1;-230;0.082;no;maybeCH4
+Haumea;dwarfplanet;0.110;1500;0.00070;43.335;2;0;2;-223;0.045;no;none?
+Makemake;dwarfplanet;0.130;1600;0.00067;45.791;0;1;1;-240;0.051;no;maybeCH4
+Ceres;dwarfplanet;0.076;974;0.00016;2.76596;0;0;0;-106;0.028;no;none
+
+*AU, which stands for "astronomical unit", is a unit for measuring distance. One AU is the average distance from the Sun's center to the Earth's center. It is equal to 149,597,871 km (92,955,807 miles).
+AUs are often more convenient to use than kilometers when measuring large distances such as those in space. In this case kilometers are just too small - it would be like measuring the distance from Boston to San Francisco in inches. AUs simply make a measurement easier to understand and give you something to compare it to.
+For example, Saturn's orbit around the Sun has an average radius of 9.5 AU, which means that Saturn is about ten times farther from the Sun than Earth is. The average distance from the Sun to distant Pluto is about 40 AU. Mercury, the planet closest to the Sun, orbits at an average distance of 0.39 AU.
+AUs are generally used for measurements of distances within our Solar System. Distances to stars are much larger, and are expressed in terms of light years. One light year is equal to more than 63,000 AUs. The nearest star, Proxima Centauri, is just over 4 light years away.
