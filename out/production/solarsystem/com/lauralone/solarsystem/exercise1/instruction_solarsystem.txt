@@ -1,0 +1,55 @@
+Exercise 58 [Laura]
+(more of a typing and structure practice, class-structure/inheritance, loops, Files, methods..)
+rating for me: 3,5 (of 5)
+
+Old Frank, a good buddy of yours is calling you for a mission:
+"Hey my friend, I really need your help! Please, please, I'm begging you!!
+Quick facts:
+- I attached a data-file for you to download and to work with. I cannot work with it myself, don't ask why - technical bullshit.
+- There is an important mission I need to complete also by myself, it’s more about hacking into a weird network of dangerous freaks, or better said, some freaks with dangerous tools, which I need to eliminate, as fast as possible. ;)
+Problem:
+they seem to be addicted or something to our solar system, because everything depends on its main-facts here, f.e. every serveradmin has a username of an object of the solar system, and the password always seems to be a specific data-combination of this objects properties. My PWCrackerTool solved some of them, very slowly by the way, so I'm quite sure that this is the solution for finding thousands of such server-passwords.
+I have some other data-lists here (usernames of different access points, and a datamix-hint for each - you wouldn't bother with that) to use with your code.
+Now, to the point: I need YOU to do some coding-magic in Java for me, to be able to search for these data faster, than I am able now. I know I can count on you, and that you are the right one for this job. Good Luck!"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To do:
+(Note: Think simple, but look closely.)
+
+a) Download textfile (solarsystem_objects_datalist.txt) here: https://drive.google.com/drive/folders/1gXNNxX8wqDfiim7fdGo5u0u6J71tYzD1?usp=sharing,
+and study it.
+
+b) Create a hierarchical structure of classes, with the objects and properties taken from the given textfile. (f.e. SolarSystemObject, Planet, DwarfPlanet, Star) - Note: if an object has rings or not, can be defined as a String named 'objectHasRings'.
+
+c) a method that receives a name or a type of an object as a String, and returns this object/s of the solar system in a List. (Note: you can import/copy a FileReader; and you can delete the bottom-part of the textfile if you don't want it, or try to exclude this part from getting parsed within your code.;P)
+
+d) Create service class, that prints all the information of one or more objects as a well-readable String output (pretty formatted details would be nice - just if you want to ;P), by receiving the name or type of an object as a String.
+If an object cannot be found, it should print the message "Object not found".
+
+e) Write logical simple (means, just testing parts of it) testcases (-> optional task - do the testing, if you still need to practice this.:)) you can, but don’t need to make it bulletproof.
+
+f) Make an Application, where you can put in a objects name, and you will get all the information (well-readable details) about that object as an output. Note: you can hardcode it (for more different inputs and outputs in a row), or use a scanner for input, maybe with a while loop saying "Search for:" and "continue?", until a 'no' is entered - whatever you like more.
+—---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+After you are finished (and the testcases are green), increase the following text to read it (and make it smaller again after ;P):
+New Message Income: "Thank you my dear friend! :) I embedded your code into my PW-hacker-tool, and like I hoped, it runs pretty fast and smoothly, you saved my burned-out soul a lot of time. Haha you are great!! I will never forget that!! :') Take care of you! :D"
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Example output:
+Results for: "sta"
+-------------------------------------------
+Name: Sun
+Type: Star
+Diameter (Scale To Earth): 109.0
+Diameter In Km: 1391400
+Mass (Scale To Earth): 330000.0
+Distance To Sun (In AU): 0.0
+Confirmed Moons: 0
+Provisional Moons: 0
+Total Moons: 0
+Temperature At Surface (In Celsius): 15million
+Gravity At Equator (Scale To Earth): 28.0
+Has Rings: no
+Atmospheric Composition: H+He
+-------------------------------------------
+Number Of Results: 1
+—---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

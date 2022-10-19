@@ -1,0 +1,147 @@
+Exercise 61 [Laura]
+(method structure, if-else, loops, reading/parsing File, scanner interaction, experiment and play, formatting Strings, ..)
+[rating for me: 3,5 (of 5)]
+
+A Solar System Project 2: (FollowUp Exercise - continue with the classes you’ve made in Exercise 58, or make new^^)
+
+A nice colleague of yours saw you writing on the program and asked you if you could help him. 
+"My kids are always bothering me with silly questions when I come home from work, and if I say I'm tired or that I just don't know, they come up with fantasy stories and speculations of planets and everything, I couldn't even think of if I would be high as hell. It would be great to have a program, to be able to quickly research something about the solar system, and have something truthful and interesting to tell them, by just entering one word."
+
+[This is just a suggestion of how I managed it. If you think there is a much nicer or easier way to get to a related output, go ahead ;) - don't be too hard on yourself, if it's motivating to improve (and keep on practising) with a easier version of this exercise, it's totally okay^^]
+
+a) a class "MainPartsOfSolarSystem", with the method 'getMainParts', which prints the main parts of the solar system, like down below, at the end of the sample interaction.
+
+b) a class 'WordsToKnow' with the properties 'word' and 'description', and getters.
+
+c) download the textfile called "wordstoknow_solarsystem.txt" here: https://drive.google.com/drive/folders/1gXNNxX8wqDfiim7fdGo5u0u6J71tYzD1?usp=sharing 
+
+d) a method that prints all searchable words as a list of Strings
+
+e) a method that receives a String, and returns a list of WordsToKnow, if the word(not the description) contains the received String.
+
+f) a class "SolarSystemDataViewer", where you put all the printing methods, to mix them or leave separate, and to call them later in the next class
+
+g) a class "SolarSystemResearcher", where the interaction takes place, that you see below in the example output.
+[meaning for example: 
+-you enter 'star', then you should get all the data for this object (like in the first exercise, nice formatted), 
+-below this you should see how many results are counted for that input, 
+-and after That, if a WordToKnow-word(not description) exists that contains the given input, the word and the description should be printed also after the result(like below - shortened).
+-If you enter 'index', you should get a list of all the words you could search for.
+-If you enter a wrong word, you can also choose if you want to see the index of searchable words.
+-make it as bulletproof as possible
+-and if you enter 'stop', the program stops like below, and prints the main-parts of the solar system.]
+
+h) an Application, where you just call the SolarSystemResearcher, and start researching.
+
+Example Output:
+
+Search for:
+h
+Input too short. Please try again:
+Search for:
+index
+
+Index of all searchable words:
+Mnemonics
+Solar System
+GeneralFacts
+Moon
+Earth
+Sun
+Stars
+Names of Dwarf Planets
+Mercury
+Venus
+Earth
+...etc.
+-------------------------------------------
+
+Search for:
+hoj
+Word not found in index. Check index?
+ohoi
+Please enter 'yes'/'true' or 'no'/'false'.
+
+Please enter 'yes'/'true' or 'no'/'false'.
+yes
+
+Index of all searchable words:
+Mnemonics
+Solar System
+GeneralFacts
+Moon
+Earth
+...etc.
+-------------------------------------------
+
+Search for:
+oizigh
+Word not found in index. Check index?
+no
+Search for:
+c
+Input too short. Please try again:
+Search for:
+
+Input too short. Please try again:
+Search for:
+co
+Results for: "co"
+-------------------------------------------
+Number of results with specific data: 0
+-------------------------------------------
+Comet:
+a comet is a body of ice, dust and bits of rock that passes through space leaving a tail of ice and dust behind it.
+A comet may be up to 25 miles across.
+
+-------------------------------------------
+-------------------------------------------
+
+Search for:
+sun
+Results for: "sun"
+-------------------------------------------
+
+Name: Sun
+Type: star
+Diameter (Scale To Earth): 109.0
+Diameter In Km: 1391400
+Mass (Scale To Earth): 330000.0
+Distance To Sun (In AU): 0.0
+Confirmed Moons: 0
+Provisional Moons: 0
+Total Moons: 0
+Temperature At Surface (In Celsius): 15million
+Gravity At Equator (Scale To Earth): 28.0
+Has Rings: no
+Atmospheric Composition: H+He
+-------------------------------------------
+Number of results with specific data: 1
+-------------------------------------------
+Sun:
+Sun is a star, a huge ball of ...etc
+
+-------------------------------------------
+Sun:
+The star in our Solar System
+-------------------------------------------
+-------------------------------------------
+
+Search for:
+stop
+
+Goodbye, see you! :)
+
+Main parts of solar system:
+1. star - Sun
+2. planet - Mercury
+3. planet - Venus
+4. planet - Earth
+5. planet - Mars
+6. planet - Jupiter
+7. planet - Saturn
+8. planet - Uranus
+9. planet - Neptune
+
+Process finished with exit code 0
+
