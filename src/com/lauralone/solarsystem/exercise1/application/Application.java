@@ -2,6 +2,8 @@ package com.lauralone.solarsystem.exercise1.application;
 
 import com.lauralone.solarsystem.exercise1.SolarSystemDataViewer;
 
+// developed by LauraLone13 (June 2022)
+
 public class Application {
 	public static void main(String[] args) {
 		
